@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.abdularis:CircularImageView-v1.2">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-CircularImageView-v1.2.aar/225008b927a936fdfce6f86ae42acef9/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-CircularImageView-v1.2.aar/225008b927a936fdfce6f86ae42acef9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-CircularImageView-v1.2.aar/225008b927a936fdfce6f86ae42acef9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

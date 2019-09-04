@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Netshoes</string>
+    <string name="menu_search">Busca</string>
+    <string name="menu_favorites">Favoritos</string>
+    <string name="dummie_nameuser">Nome do usuário</string>
+    <string name="dummie_gist_type">Gist Type/xml</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="successful_action">Ação realizada com sucesso</string>
+    <string name="error_generic">Houve um problema.</string>
+
+
+</resources>

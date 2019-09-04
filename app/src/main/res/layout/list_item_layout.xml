@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_people_container"
+    android:orientation="horizontal"
+    android:padding="@dimen/size_10dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.github.abdularis.civ.AvatarImageView
+        android:id="@+id/item_list_avatar"
+        android:layout_gravity="center"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        app:strokeWidth="1dp"
+        app:state="IMAGE"
+        app:strokeColor="@color/grey"
+        app:avatarBackgroundColor="@color/colorAccent"
+        app:textSize="@dimen/txt_22"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item_list_name"
+            android:text="@string/dummie_nameuser"
+            android:textSize="@dimen/txt_14"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/item_list_type"
+            android:text="@string/dummie_gist_type"
+            android:textSize="@dimen/txt_12"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="@dimen/size_10dp"
+        android:id="@+id/item_list_action"
+        android:src="@drawable/ic_favorite_off"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size" />
+
+</LinearLayout>
